@@ -83,6 +83,11 @@ a:hover {
 
 /* Carosel */
 
+.slideshow-container {
+  max-width: 768px;
+  margin: auto;
+}
+
 .mySlides {
   display: none;
 }
@@ -112,7 +117,7 @@ a:hover {
 
 @keyframes fade {
   from {
-    opacity: 0.8;
+    opacity: 0.9;
   }
   to {
     opacity: 1;
@@ -296,12 +301,12 @@ a:hover {
 }
 
 .social-p:hover {
-  color: #b1701b;
+  color: #a17658;
   transform: scale(1.1);
 }
 
 .social-a:hover {
-  background-color: #b1701b;
+  background-color: #a17658;
 }
 
 .social a:hover i {
@@ -374,7 +379,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #bb6a01;
+  background-color: #a17658;
 }
 
 /* footer */
