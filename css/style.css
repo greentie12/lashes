@@ -197,15 +197,19 @@ a:hover {
 
 #policy {
   background-color: #dbd1c9;
-  padding: 0.3rem;
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+}
+
+.policy-intro {
+  margin: 2rem auto;
 }
 
 .policy-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .policy-div {
@@ -231,6 +235,11 @@ a:hover {
   font-family: "Allura", cursive;
   color: #985220;
   font-size: 2rem;
+}
+
+.exception {
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .bio {
@@ -266,6 +275,12 @@ a:hover {
 
 #social {
   margin-top: 1rem;
+}
+
+.social-section {
+  background-color: #dbd1c9;
+  padding: 0.3rem;
+  margin-bottom: 2rem;
 }
 
 .social {
